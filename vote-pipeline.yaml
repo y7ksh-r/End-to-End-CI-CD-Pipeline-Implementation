@@ -1,0 +1,18 @@
+- stage: Update
+  displayName: Update
+  jobs:
+  - job: Update
+    displayName: Update
+    steps:
+
+    # Step 1: Fix line endings (CRLF to LF) in the shell script
+    - script: |
+        sed -i 's/\r$//' Scripts/UpdateK8sManifests.sh
+      displayName: Convert line endings to LF
+
+    # Step 2: Run the shell script with args
+    - task: ShellScript@2
+      displayName: Run Update Script
+      inputs:
+        scriptPath: 'Scripts/UpdateK8sManifests.sh'
+        args: 'vote $(imageRepository) $(tag)'
