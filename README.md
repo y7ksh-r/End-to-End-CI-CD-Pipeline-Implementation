@@ -19,7 +19,7 @@
 
 ## Working of the Project
 
-![WhatsApp Image 2025-07-01 at 12 57 01_90b6057d](https://github.com/user-attachments/assets/532cf61b-f6b3-418e-a3d8-86ace8ba6460)
+![RP0_QY~1](https://github.com/user-attachments/assets/29aceeef-6a72-44ed-a95c-29c81e259529)
 
 
 
