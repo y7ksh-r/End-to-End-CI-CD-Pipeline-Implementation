@@ -1,6 +1,5 @@
 # End-to-End CI/CD Pipeline Implementation
 
-## Overview
 • Implemented End to End CI/CD Pipeline for a N-Tier Architecture Microservice Application. This Application comprises of 3 Microservices, each written in a different language, and there is a Redis for Caching and a MySQL Database for storing the User Information.
 
 • Created the pipeline for Python, .NET, and Java Applications using Azure CI Pipelines and deployed the microservices onto the Azure Kubernetes Service(AKS) using Argo CD.
@@ -21,6 +20,15 @@
 
 ![RP0_QY~1](https://github.com/user-attachments/assets/29aceeef-6a72-44ed-a95c-29c81e259529)
 
+## Video Walkthrough of the Project
+
+[Click here!](https://youtu.be/B6eC4rXYsGY)
+
+## Have Doubts?
+
+Contact me through:
+
+[Github](https://github.com/y7ksh-r) | [LinkedIn](https://www.linkedin.com/in/yaksh7/) | [Medium](https://medium.com/@yakshrajput77)  | [Dev.to](https://dev.to/yakshrajput7)
 
 
 
