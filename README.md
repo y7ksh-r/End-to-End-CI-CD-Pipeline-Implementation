@@ -9,13 +9,13 @@
 
 ## Tech Stack Used
 
-• Azure Cloud - Resource groups, Virtual Machine(VM) for running the agent pool required for the pipelines, AKS (Azure Kubernetes Service),ACR(Azure Container Registry) for storing microservice containers ,VMSS, 
+• **Azure Cloud** - Resource groups, Virtual Machine(VM) for running the agent pool required for the pipelines, AKS (Azure Kubernetes Service),ACR(Azure Container Registry) for storing microservice containers ,VMSS, 
 
-• Azure DevOps - Repository for storing the project, Pipelines(CI)
+• **Azure DevOps** - Repository for storing the project, Pipelines(CI)
 
-• GitOps & ArgoCD - used for CD pipelines that monitor the changes in the Repos and update those changes on the AKS cluster 
+• **GitOps & ArgoCD** - used for CD pipelines that monitor the changes in the Repos and update those changes on the AKS cluster 
 
-• Shell Scripting - used for creating a script such that any changes occur in the Repo, the CI pipeline will update the Repo and push it to ACR while the Script picks up the new updated Container and updates it to the K8sManifest Files
+• **Shell Scripting** - used for creating a script such that any changes occur in the Repo, the CI pipeline will update the Repo and push it to ACR while the Script picks up the new updated Container and updates it to the K8sManifest Files
 
 ## Working of the Project
 
