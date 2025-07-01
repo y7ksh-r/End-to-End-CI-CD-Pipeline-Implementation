@@ -20,6 +20,7 @@
 
 ![RP0_QY~1](https://github.com/user-attachments/assets/29aceeef-6a72-44ed-a95c-29c81e259529)
 
+The Voting App comprises of 3 Micro Service
 ## Video Walkthrough of the Project
 
 [Click here!](https://youtu.be/B6eC4rXYsGY)
