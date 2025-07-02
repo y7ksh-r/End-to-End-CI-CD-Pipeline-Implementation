@@ -20,8 +20,21 @@
 
 ![RP0_QY~1](https://github.com/user-attachments/assets/29aceeef-6a72-44ed-a95c-29c81e259529)
 
-The Voting App comprises of 3 Micro Service
+**CI:**
+
+The Voting App comprises three microservices, so we will create a CI pipeline for each of them, which will detect changes in the microservices and automatically build and push the image to their respective ACRs.
+
+**Script:**
+
+The Script would be responsible for updating the K8sManifests files in the Repo with the latest image created through the CI pipelines
+
+**CD:**
+
+ArgoCD then watches the K8sManifests files. If it catches any updates to them, it redirects those new changes to the nodes, and the updated application gets deployed on the AKS.
+
 ## Video Walkthrough of the Project
+
+*Before going through the video, I'm assuming that you have a Valid Azure and Azure DevOps account with the free tier enabled, or else you'll be charged.*
 
 [Click here!](https://youtu.be/B6eC4rXYsGY)
 
