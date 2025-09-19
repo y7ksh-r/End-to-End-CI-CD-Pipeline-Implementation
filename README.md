@@ -36,7 +36,7 @@ ArgoCD then watches the K8sManifests files. If it catches any updates to them, i
 
 *Before going through the video, I'm assuming that you have a Valid Azure and Azure DevOps account with the free tier enabled, or else you'll be charged.*
 
-[Click here!](https://youtu.be/B6eC4rXYsGY)
+[Click here!](https://youtu.be/B3LlZ0eKZMI)
 
 ## Have Doubts?
 
